@@ -75,8 +75,10 @@ Navigate to https://github.com/ to clone.  Carefully follow the installation ins
 ## Built With
 
 Visual Studio Code: https://code.visualstudio.com/  
-Node.js: https://nodejs.org/en/
+Node.js: https://nodejs.org/en/  
+MySQL: https://www.mysql.com/  
 Heroku: https://dashboard.heroku.com
+
 
 ## Contributing
 
