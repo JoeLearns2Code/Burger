@@ -5,30 +5,33 @@ var router = express.Router();
 
 //Import burger.js
 var burger = require("../models/burger.js");
+// console.log(burger)
 
 //Routes
 
 //selectAll()
-router.get("/", function(req, res){
+router.get("/", function(req, res) {
     burger.selectAll(function(data) {
         var hbsObject = {
             burgers: data
         };
+
         console.log(hbsObject);
-        // return("Here is the motherf'n tea.")
-        // res.render("index", hbsObject);
+       
+        res.render("index", hbsObject);
     });
 });
 
 
 //insertOne()
 router.post("/api/burgers", function(req,res) {
-    burger.updateOne([
+    burger.insertOne([
         "burger_name", "devoured"
     ], [
         req.body.burger_name, req.body.devoured
     ], function(result) {
         //Send ID of the new item
+        // res.redirect("/");
         res.json({id: result.insertId});
     });
 });
