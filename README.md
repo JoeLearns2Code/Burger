@@ -9,7 +9,7 @@ Additionall, the user may add new burgers to the list by entering in a Burger Na
 
 Burger is deployed via Heroku.  A direct link for the Heroku can be found here: https://jl2cburgerapp.herokuapp.com/
 
-Files and other information can be found on GitHub here: https://github.com/JoeLearns2Code/FriendFinder
+Files and other information can be found on GitHub here: https://github.com/JoeLearns2Code/Burger
 
 ### Prerequisites
 
@@ -75,8 +75,10 @@ Navigate to https://github.com/ to clone.  Carefully follow the installation ins
 ## Built With
 
 Visual Studio Code: https://code.visualstudio.com/  
-Node.js: https://nodejs.org/en/
+Node.js: https://nodejs.org/en/  
+MySQL: https://www.mysql.com/  
 Heroku: https://dashboard.heroku.com
+
 
 ## Contributing
 
